@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.club-title-section {
+    background-color:bisque;
+    margin: 0px 0px 0px 0px;
+}
+.title-div{
+    text-align: center;
+}
+.call-pic {
+    width:5%;
+    margin-top: 0.3vw;;
+}
+.people-column {
+    text-align: center;
+}
+.reps-head {
+    margin-top: 3vw;;
+    font-size: 1.5vw;
+    text-decoration: underline;
+}
+.reps {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.sport-name {
+    font-size: 4vw;
+    transition: 1s;
+    cursor: default;
+}
+.rep1-column {
+    width: 50%;
+    margin: auto;
+}
+.rep1-column-pic  {
+    width: 50%;
+    height:auto;
+    margin: auto;
+    position: relative;
+}
+.rep2-column {
+    width: 50%;
+    margin: auto;
+}
+.rep2-column-pic  {
+    width: 50%;
+    height:auto;
+    margin: auto;
+    position: relative;
+}
+.Rep-1 {
+    margin-top:1vw;
+    margin-bottom: 0px;    
+    width:100%;
+    border-radius: 30px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+}
+.overlay-rep {
+    position: absolute;
+    left: 0;
+    bottom: 0.3vw;
+    background-color: red;
+    width:100%;
+    height:0;
+    overflow: hidden;
+    transition: .5s ease;
+    border-radius: 0 0 30px 30px;
+}
+.rep1-column-pic:hover .overlay-rep {
+    height: 2.2vw;
+}
+.rep2-column-pic:hover .overlay-rep {
+    height: 2.2vw;
+}
+.Rep-2{ 
+    margin-top:1vw;
+    margin-bottom: 0px;
+    width:100%;
+    border-radius: 30px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+}
+.excaptain-column {
+    width:25%;
+    position: relative;
+    transition: transform .5s;
+    transform-style: preserve-3d;
+}
+.excaptain-column-pic {
+    width: 100%;
+}
+.Ex-CaptainPic {
+    margin-top: 0;
+}
+.excaptain-column:hover {
+    transform: rotateY(180deg);
+}
+.excaptain-back {
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 30px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
