@@ -18,7 +18,7 @@
 }
 .reps-head {
     margin-top: 3vw;;
-    font-size: 1.5vw;
+    font-size: 150%;
     text-decoration: underline;
 }
 .reps {
@@ -72,10 +72,10 @@
     border-radius: 0 0 30px 30px;
 }
 .rep1-column-pic:hover .overlay-rep {
-    height: 2.2vw;
+    height: 7%;
 }
 .rep2-column-pic:hover .overlay-rep {
-    height: 2.2vw;
+    height: 7%;
 }
 .Rep-2{ 
     margin-top:1vw;
@@ -116,4 +116,21 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     
+}
+
+@media only screen and (max-width:800px) {
+    .reps {
+        display:block;
+    }
+    .rep1-column {
+        width: 80%;
+        padding: 0;
+    }
+    .rep2-column {
+        width: 80%;
+        padding: 0;
+    }
+    .excaptain-column {
+        width:48%
+    }
 }
